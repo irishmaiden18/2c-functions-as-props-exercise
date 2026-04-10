@@ -19,15 +19,16 @@ function App() {
       description: "Scrub toilet and sink and mop floors"
     }
   ]
-  const completeTask = (title, description) => {
+
+  const completeTask = (title) => {
     alert (
-        `${title} - ${description} COMPLETED!`
+        `${title} - COMPLETED!`
     )
   }
 
-  const deleteTask = (title, description) => {
+  const deleteTask = (title) => {
     alert (
-      `${title} - ${description} DELETED!`
+      `${title} - DELETED!`
     )
   }
 
